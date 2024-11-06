@@ -530,6 +530,8 @@ footer {
   line-height: 24px;
   letter-spacing: 0.3px;
   text-align: center;
+
+  padding-bottom: 30px;
 }
 
 @media screen and (max-width: 576px) {
