@@ -1,0 +1,672 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ballet:opsz@16..72&family=League+Script&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+
+  max-width: 1829px;
+}
+
+header {
+  background: linear-gradient(
+    180deg,
+    rgb(17, 17, 17),
+    rgba(119, 119, 119, 0) 100%
+  );
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.btn {
+  border-radius: 42px;
+
+  background: rgb(230, 83, 60);
+  padding: 9px 24px 9px 24px;
+
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 21px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 0px;
+  text-align: center;
+}
+
+.b {
+  background-color: black;
+  margin-left: 12px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu {
+  display: flex;
+  /* justify-content: end; */
+  align-items: center;
+  gap: 30px;
+}
+
+.fitness {
+  color: rgb(230, 83, 60);
+  font-family: Inter;
+  font-size: 2.7rem;
+  font-weight: 800;
+  line-height: 144%;
+  letter-spacing: 0%;
+  text-align: left;
+  font-style: italic;
+}
+
+.hidden {
+  visibility: hidden;
+  display: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.menu p a {
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 144%;
+  letter-spacing: 0%;
+  text-align: right;
+}
+
+.crasule {
+  display: flex;
+  justify-content: space-between;
+}
+
+.crasuleText h1 {
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 5.4rem;
+  font-weight: 900;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.crasuleText p {
+  color: rgba(255, 255, 255, 0.5);
+  font-family: Inter;
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0.5px;
+  text-align: left;
+}
+
+.shape {
+  font-family: "League Script", cursive;
+  font-weight: 800;
+  font-style: normal;
+}
+.crasuleImages {
+  position: relative;
+}
+.five {
+  position: absolute;
+  left: 250px;
+  top: 100px;
+  box-sizing: border-box;
+  border: 0.76px solid rgba(255, 255, 255, 0.1);
+  border-radius: 9.07px;
+
+  backdrop-filter: blur(15.12px);
+  background: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+}
+
+.five .h1 {
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 36px;
+  font-weight: 900;
+  line-height: 35.24px;
+  letter-spacing: 0.76px;
+}
+
+.five .p {
+  color: rgba(255, 255, 255, 0.65);
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20.12px;
+  letter-spacing: 0.76px;
+}
+.card {
+  display: flex;
+  column-gap: 20px;
+  position: absolute;
+  left: -110px;
+  top: 380px;
+  box-sizing: border-box;
+  border: 0.76px solid rgba(255, 255, 255, 0.1);
+  border-radius: 9.07px;
+
+  backdrop-filter: blur(15.12px);
+  background: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+
+  align-items: center;
+  justify-content: center;
+}
+.card .h1 {
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 36px;
+  font-weight: 900;
+  line-height: 35.24px;
+  letter-spacing: 0.76px;
+}
+
+.card .p {
+  color: rgba(255, 255, 255, 0.65);
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20.12px;
+  letter-spacing: 0.76px;
+}
+
+.circle {
+  width: 40px;
+  height: 40px;
+  border-radius: 100px;
+  background: rgb(230, 83, 60);
+}
+.crasuleImages img {
+  align-content: end;
+}
+
+.circle i {
+  visibility: hidden;
+}
+
+main {
+  background-color: black;
+
+  /* background-color: aquamarine; */
+}
+
+.habits {
+  padding: 30px 0;
+}
+.habitsText h1,
+.vedioSection h1 {
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 3.5rem;
+  font-weight: 900;
+  line-height: 120%;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.habitsText p,
+.vedioSection p {
+  color: rgba(255, 255, 255, 0.5);
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.3px;
+  text-align: center;
+}
+.vedioSection p {
+  font-size: 20px;
+}
+
+.habitsImages {
+  display: flex;
+
+  gap: 15px;
+
+  padding: 20px 0;
+}
+
+.js {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.js img {
+  border-radius: 100px;
+}
+
+.js h4 {
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 21px;
+  font-weight: 600;
+  line-height: 120%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.js p {
+  color: rgba(255, 255, 255, 0.5);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0.3px;
+  text-align: center;
+}
+
+.run {
+  display: flex;
+  gap: 40px;
+  border-radius: 18px;
+
+  background: rgb(34, 34, 34);
+
+  padding: 45px;
+}
+
+.run img {
+  border-radius: 18px;
+}
+
+.responsive {
+  width: 90%;
+  height: auto;
+}
+
+.hh {
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 57px;
+  font-weight: 900;
+  line-height: 120%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.pp {
+  color: rgba(255, 255, 255, 0.5);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.3px;
+  text-align: left;
+}
+
+.vedio {
+  display: flex;
+  gap: 40px;
+  border-radius: 40px;
+  justify-content: center;
+  align-items: center;
+}
+iframe {
+  border-radius: 10px;
+}
+
+.mi {
+  padding-bottom: 30px;
+}
+
+.bmi {
+  padding: 40px;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.bmiMain {
+  background: rgb(34, 34, 34);
+}
+
+.bmiTable h3,
+.bmiForm h3 {
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 33px;
+  font-weight: 900;
+  line-height: 120%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.bmiForm p {
+  color: rgba(255, 255, 255, 0.5);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.3px;
+  text-align: left;
+}
+
+.tableBody {
+  color: rgba(255, 255, 255, 0.5);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 120%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+table {
+  border-collapse: collapse;
+  width: 300px;
+  text-align: left;
+}
+th,
+td {
+  padding: 15px;
+  border: 1px solid #444;
+}
+th {
+  color: #fff;
+  font-weight: bold;
+  padding: 15px;
+}
+
+.con {
+  display: grid;
+  gap: 40px;
+  grid-template-columns: 1fr 1fr;
+}
+input,
+select {
+  background-color: #333;
+  color: #ddd;
+  border: none;
+  padding: 15px;
+  border-radius: 5px;
+  font-size: 16px;
+  width: 100%;
+}
+input::placeholder,
+select {
+  color: #999;
+}
+.full-width {
+  grid-column: span 2;
+}
+
+.meet {
+  padding: 50px 0;
+}
+.meet h1 {
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 57px;
+  font-weight: 900;
+  line-height: 120%;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.meet p {
+  color: rgba(255, 255, 255, 0.5);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.3px;
+  text-align: center;
+}
+
+.meetPhoto {
+  display: grid;
+
+  grid-template-columns: repeat(3, 1fr);
+
+  background-color: #444;
+
+  padding: 50px;
+
+  gap: 30px;
+
+  border-radius: 18px;
+}
+
+.meetPhoto img {
+  width: 100%;
+  height: auto;
+  border-radius: 18px;
+}
+
+.imgres {
+  position: relative;
+}
+.imgres img {
+  width: 24rem;
+  height: 20rem;
+}
+
+.imgText {
+  position: absolute;
+
+  bottom: 30px;
+  left: 20px;
+}
+
+.ih {
+  color: white;
+  font-size: 24px;
+}
+.ip {
+  color: #121212;
+  font-size: 18px;
+}
+
+footer {
+  background-color: #b9b9b9;
+}
+
+.foot {
+  padding: 79px 0;
+
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+
+  gap: 30px;
+}
+
+.foot h1 {
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 120%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.foot p {
+  color: rgb(152, 150, 150);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.3px;
+  text-align: left;
+}
+
+.foot h4 {
+  color: rgb(152, 150, 150);
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 120%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+#red {
+  color: rgb(230, 83, 60);
+  font-weight: 800;
+  font-size: 4rem;
+  font-style: italic;
+}
+
+.underline {
+  border: 2px solid rgba(17, 4, 4, 0.1);
+}
+
+@media screen and (max-width: 576px) {
+  body {
+    width: 100%;
+    /* background-color: lightblue; */
+  }
+  .icon {
+    background-color: white;
+  }
+  .hidden {
+    visibility: visible;
+    display: inline;
+    display: flex;
+  }
+
+  .hiddenFirst {
+    visibility: hidden;
+    display: none;
+  }
+
+  .crasule {
+    flex-direction: column;
+  }
+
+  .join {
+    display: flex;
+
+    row-gap: 20px;
+  }
+
+  .five {
+    position: absolute;
+    left: 200px;
+    top: 50px;
+    box-sizing: border-box;
+    border: 0.76px solid rgba(255, 255, 255, 0.1);
+    border-radius: 9.07px;
+
+    backdrop-filter: blur(15.12px);
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+  }
+
+  .five .h1 {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 36px;
+    font-weight: 900;
+    line-height: 35.24px;
+    letter-spacing: 0.76px;
+  }
+
+  .five .p {
+    color: rgba(255, 255, 255, 0.65);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20.12px;
+    letter-spacing: 0.76px;
+  }
+  .card {
+    display: flex;
+    column-gap: 20px;
+    position: absolute;
+    left: -30px;
+    top: 230px;
+    box-sizing: border-box;
+    border: 0.76px solid rgba(255, 255, 255, 0.1);
+    border-radius: 9.07px;
+
+    backdrop-filter: blur(15.12px);
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+
+    align-items: center;
+    justify-content: center;
+  }
+  .card .h1 {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 36px;
+    font-weight: 900;
+    line-height: 35.24px;
+    letter-spacing: 0.76px;
+  }
+
+  .card .p {
+    color: rgba(255, 255, 255, 0.65);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20.12px;
+    letter-spacing: 0.76px;
+  }
+
+  .circle {
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    background: rgb(230, 83, 60);
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    visibility: visible;
+  }
+  .circle i {
+    visibility: visible;
+  }
+
+  .your-icon-class {
+    font-family: "Washom";
+    font-size: 24px;
+    text-align: center;
+    color: #ffffff;
+  }
+
+  .crasuleImages img {
+    align-content: end;
+  }
+
+  .habitsImages {
+    flex-direction: column;
+  }
+
+  .run {
+    flex-direction: column;
+  }
+
+  .vedio {
+    flex-direction: column;
+  }
+
+  iframe {
+    width: 100%;
+    height: auto;
+  }
+
+  .bmi {
+    flex-direction: column;
+  }
+
+  .meetPhoto {
+    grid-template-columns: repeat(1, 1fr);
+
+    justify-content: center;
+    align-items: center;
+  }
+}
