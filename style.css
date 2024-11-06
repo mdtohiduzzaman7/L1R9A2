@@ -522,6 +522,16 @@ footer {
   border: 2px solid rgba(17, 4, 4, 0.1);
 }
 
+.lastFoot {
+  color: rgba(255, 255, 255, 0.5);
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.3px;
+  text-align: center;
+}
+
 @media screen and (max-width: 576px) {
   body {
     width: 100%;
